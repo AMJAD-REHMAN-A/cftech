@@ -11,6 +11,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 
 a {
@@ -89,7 +90,7 @@ h6 {
 /*--------------------------------------------------------------
 # Welcome
 --------------------------------------------------------------*/
-#hero {
+#home {
   display: table;
   width: 100%;
   height: 100vh;
@@ -98,20 +99,20 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #home {
     background-attachment: fixed;
   }
 }
 
-#hero .hero-logo {
+#home .hero-logo {
   margin: 20px;
 }
 
-#hero .hero-logo img {
+#home .hero-logo img {
   max-width: 100%;
 }
 
-#hero .hero-container {
+#home .hero-container {
   background: rgba(0, 0, 0, 0.6);
   display: table-cell;
   margin: 0;
@@ -120,7 +121,7 @@ h6 {
   vertical-align: middle;
 }
 
-#hero h1 {
+#home h1 {
   margin: 30px 0 10px 0;
   font-weight: 700;
   line-height: 48px;
@@ -129,33 +130,33 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
 }
 
-#hero h2 {
+#home h2 {
   color: #ddd;
   margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #home h2 {
     font-size: 24px;
     line-height: 26px;
     margin-bottom: 30px;
   }
-  #hero h2 .rotating {
+  #home h2 .rotating {
     display: block;
   }
 }
 
-#hero .rotating > .animated {
+#home .rotating > .animated {
   display: inline-block;
 }
 
-#hero .actions a {
+#home .actions a {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -168,24 +169,24 @@ h6 {
   margin: 10px;
 }
 
-#hero .btn-get-started {
+#home .btn-get-started {
   background: #03c4eb;
   border: 2px solid #03c4eb;
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: none;
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero .btn-services {
+#home .btn-services {
   border: 2px solid #fff;
   color: #fff;
 }
 
-#hero .btn-services:hover {
+#home .btn-services:hover {
   background: #03c4eb;
   border: 2px solid #03c4eb;
 }
@@ -893,4 +894,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+#about-products .about-prd-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about-products .about-prd-img {
+    height: auto;
+  }
+  #about-products .about-prd-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+.thumbnail a > img,
+.thumbnail > img {
+  margin-right: auto;
+  margin-left: auto;
+  background: #d7686e;
+  border-radius: 50%;
+}
+
+.btn-read {
+  color: #fff;
+  background-color: #d7686e;
+  border-color: #d7686e;
+}
+
+#home > div > div > div.social > a > i {
+  color: #fff;
+  padding: 5px;
 }
