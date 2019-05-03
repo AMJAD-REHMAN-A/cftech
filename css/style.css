@@ -919,3 +919,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   padding: 5px;
 }
+
+.my_class_name {
+  margin: 0 auto;
+  border: 10px solid #f6f6f6;
+}
