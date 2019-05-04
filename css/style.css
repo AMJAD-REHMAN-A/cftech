@@ -143,6 +143,12 @@ h6 {
   }
 }
 
+@media (max-width: 768px) {
+  .player {
+    max-height: 360px;
+  }
+}
+
 #home .rotating > .animated {
   display: inline-block;
 }
