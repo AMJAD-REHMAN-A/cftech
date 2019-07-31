@@ -506,7 +506,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
+.mar {
+  margin-top: 60%;
+}
+
+.mar-abt {
+  margin-top: 30%;
+}
+
 @media (max-width: 768px) {
+  .mar {
+    margin-top: 0%;
+  }
+  .mar-abt {
+    margin-top: 0%;
+  }
   #about .about-img {
     height: auto;
   }
