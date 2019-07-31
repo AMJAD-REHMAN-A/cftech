@@ -507,11 +507,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .mar {
-  margin-top: 60%;
+  margin-top: 50%;
 }
 
 .mar-abt {
-  margin-top: 30%;
+  margin-top: 0%;
 }
 
 @media (max-width: 768px) {
