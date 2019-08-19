@@ -59,8 +59,8 @@
         </div>
         <div class="social">
           <a href="https://www.facebook.com/cochinfoodtech/"><i class="fa fa-facebook-square fa-3x"></i></a>
-          <a href="https://www.youtube.com/"><i class="fa fa-youtube-square fa-3x"></i></a>
-          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          <a href="https://www.youtube.com/channel/UCbgkrS9sOD3dlt8C15iR_rw"><i class="fa fa-youtube-square fa-3x"></i></a>
+          <a href="https://www.linkedin.com/company/14568333"><i class="fa fa-linkedin-square fa-3x"></i></a>
         </div>
       </div>
     </div>
@@ -342,8 +342,20 @@
         <div class="col-md-6 service-item">
           <div class="service-icon"><a href="#about-products"><i class="fa fa-cogs"></i></a></div>
           <a href="#about-products"><h4 class="service-title">Services &amp; Support</h4></a>
-          <p class="service-description">Visitors can create their free account and explore our visitor management
-            portal.</p>
+          <!-- <p class="service-description">Visitors can create their free account and explore our visitor management
+            portal.</p> -->
+          <p class="service-description">We offer complete service and support to keep your system in good operating condition. Our differentiated service packages aim at keeping your equipment running as profitable as long as possible and with a minimum downtime. 
+            Our support includes
+            <ul class="service-description">
+              <li>Component repairs and replacement parts</li>
+              <li>Service, Remote support and AMC</li>
+            </ul>                  
+            <p class="service-description">
+              For service inquiries, related to, Cooker, Freezers, Conyers please email 
+              <a href="mailto:lijo.david@cftech.in">lijo.david@cftech.in</a>,          
+              <a href="mailto:cftaccounts@cftech.in">cftaccounts@cftech.in</a>
+            </p>
+          </p>
         </div>
       </div>
     </div>
@@ -711,13 +723,13 @@
         player: null,
         /**
          * Tracks ids here...
+          'oZk0azjvKSA',
+          'KsK2PNzQJHY'
          */
         videos: [
           'pdSFXAwRJgY',
           '8hHOdAPwG5E',
-          'zJfLQSfd2nQ',
-          'oZk0azjvKSA',
-          'KsK2PNzQJHY'
+          'CNQW8pw2BAo',
         ],
         currentlyPlaying: function () {
           return YouTubePlayer.videos[YouTubePlayer.current];
@@ -774,12 +786,13 @@
             autoplay: 0,
             autohide: 1,
             showinfo: 0,
-            modestbranding: 1,
+            //modestbranding: 1,
             wmode: "transparent",
             html5: 1,
             origin:"*",
             autohide:1,
             wmode:'opaque',
+            ecver:2,
           }
         });
       }
